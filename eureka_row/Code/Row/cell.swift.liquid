@@ -1,0 +1,28 @@
+//
+//  {{ prefix }}{{ module_info.name }}{{ module_info.file_name }}
+//  {{ module_info.project_name }}
+//
+//  Created by {{ developer.name }} on {{ date }}.
+//  Copyright © {{ year }} {{ developer.company }}. All rights reserved.
+//
+
+import UIKit
+import Eureka
+
+class {{ module_info.name }}Cell: Cell<{{ module_info.name }}RowValue>, CellType {
+    override func setup() {
+        super.setup()
+
+        guard let value = row.value else { return }
+
+        // TODO:
+    }
+
+    override func update() {
+        super.update()
+        
+        guard let value = row.value else { return }
+
+        // TODO:
+    }
+}

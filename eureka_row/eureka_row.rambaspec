@@ -1,0 +1,16 @@
+# Template information section
+name: eureka_row
+summary: Creates a new Eureka row
+author: Dmitry Volosach
+version: 1.0.0
+license: MIT
+
+# The declarations for code files
+code_files:
+- {name: rows/RowValue.swift, path: Code/Row/rowvalue.swift.liquid}
+- {name: rows/Row.swift, path: Code/Row/row.swift.liquid}
+- {name: rows/Cell.swift, path: Code/Row/cell.swift.liquid}
+
+# Template dependencies
+dependencies:
+- Eureka
